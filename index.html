@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Login</title>
+    <link rel="stylesheet" href="./assest/css/style.css">
+</head>
+<body>
+    <main class="container">
+        <div class="text">
+            <h1 class="title">[Ebook] Guiado HTML e CSS</h1>
+            <p class="p">Dê seus primeiros passos com desenvolvimento Web e aprenda a cirar uma página de ZERO!</p>
+            <img class="imagem" src="Imagem.jpg">
+        </div>
+        <form class="formulario" action="formulario">
+            <div class="form">
+                <h2 class="title-form">Faça o download grátis aqui</h2>
+                <p class="p-form">Preencha o formulário abaixo para acessar o ebook</p>
+                <label for="nome">Nome*</label>
+                <input class="input" type="text" name="nome" id="nome">
+                <label for="email">Email*</label>
+                <input class="input" type="email" name="email" id="email">
+                <label for="pro">Profissionalmente, você se considera.*</label>
+                <select class="input" name="pro" id="pro">
+                    <option value="select">Selecione</option>
+                    <option value="junior">Junior</option>
+                    <option value="master">Master</option>
+                </select>
+                <label for="objt">Qual é o seu objetivo?*</label>
+                <select class="input" name="objt" id="objt">
+                    <option value="select">Selecione</option>
+                    <option value="FS">Fullstack</option>
+                    <option value="FE">Front-end</option>
+                    <option value="BE">Back-end</option>
+                </select>
+                <label for="radio">Você possui interesse em iniciar um curso online?*</label>
+                <br class="br">
+                <input class="radio" type="radio" name="online" value="Sim">
+                <span>Sim</span>
+                <br class="br">
+                <input class="radio" type="radio" name="online" value="Não">
+                <span>Não</span>
+                <br class="br">
+                <label for="mat">7 + 8 = ?</label>
+                <br class="br">
+                <input class="input" type="text" name="mat" id="mat">
+                <br class="br">
+                <button class="button">Aprender HTML e CSS agora!</button>
+                <span class="span-form">Prometemos não utilizar suas informações de contato para enviar qualquer tipo de SPAN.</span>
+        </div>
+    </form>
+    </main>
+</body>
+</html>
